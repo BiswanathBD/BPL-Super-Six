@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "image": "https://i.ibb.co.com/C3NKt6f3/image.png",
+    "price": 3500000,
+    "country": "India",
+    "playing_role": "Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm medium"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "image": "https://i.ibb.co.com/7JTGnYw5/image.png",
+    "price": 2800000,
+    "country": "Pakistan",
+    "playing_role": "Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm offbreak"
+  },
+  {
+    "id": 3,
+    "name": "Joe Root",
+    "image": "https://i.ibb.co.com/nyJyw5t/image.png",
+    "price": 2500000,
+    "country": "England",
+    "playing_role": "Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm offbreak"
+  },
+  {
+    "id": 4,
+    "name": "Steve Smith",
+    "image": "https://i.ibb.co.com/BKdTgPyJ/image.png",
+    "price": 3000000,
+    "country": "Australia",
+    "playing_role": "Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm legbreak"
+  },
+  {
+    "id": 5,
+    "name": "Kane Williamson",
+    "image": "https://i.ibb.co.com/DfqnsxgD/image.png",
+    "price": 2700000,
+    "country": "New Zealand",
+    "playing_role": "Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm offbreak"
+  },
+  {
+    "id": 6,
+    "name": "Jasprit Bumrah",
+    "image": "https://i.ibb.co.com/4nSbpR21/image.png",
+    "price": 2900000,
+    "country": "India",
+    "playing_role": "Bowler",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm fast"
+  },
+  {
+    "id": 7,
+    "name": "Trent Boult",
+    "image": "https://i.ibb.co.com/CK9WT1Yq/image.png",
+    "price": 2200000,
+    "country": "New Zealand",
+    "playing_role": "Bowler",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Left-arm fast-medium"
+  },
+  {
+    "id": 8,
+    "name": "Pat Cummins",
+    "image": "https://i.ibb.co.com/62KBkm3/image.png",
+    "price": 2600000,
+    "country": "Australia",
+    "playing_role": "Bowler",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm fast-medium"
+  },
+  {
+    "id": 9,
+    "name": "Mitchell Starc",
+    "image": "https://i.ibb.co.com/hFyj6WRd/image.png",
+    "price": 2400000,
+    "country": "Australia",
+    "playing_role": "Bowler",
+    "batting_hand": "Left-hand bat",
+    "bowling_hand": "Left-arm fast"
+  },
+  {
+    "id": 10,
+    "name": "Rashid Khan",
+    "image": "https://i.ibb.co.com/ZpZ6f9yH/image.png",
+    "price": 2800000,
+    "country": "Afghanistan",
+    "playing_role": "All-rounder",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm legbreak"
+  },
+  {
+    "id": 11,
+    "name": "Ben Stokes",
+    "image": "https://i.ibb.co.com/cKstLhKC/image.png",
+    "price": 3200000,
+    "country": "England",
+    "playing_role": "All-rounder",
+    "batting_hand": "Left-hand bat",
+    "bowling_hand": "Right-arm fast-medium"
+  },
+  {
+    "id": 12,
+    "name": "Hardik Pandya",
+    "image": "https://i.ibb.co.com/DfTmyvpk/image.png",
+    "price": 2800000,
+    "country": "India",
+    "playing_role": "All-rounder",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm fast-medium"
+  },
+  {
+    "id": 13,
+    "name": "Shaheen Afridi",
+    "image": "https://i.ibb.co.com/gLqdYKCB/image.png",
+    "price": 2300000,
+    "country": "Pakistan",
+    "playing_role": "Bowler",
+    "batting_hand": "Left-hand bat",
+    "bowling_hand": "Left-arm fast"
+  },
+  {
+    "id": 14,
+    "name": "Quinton de Kock",
+    "image": "https://i.ibb.co.com/wFsNhgQ9/image.png",
+    "price": 2100000,
+    "country": "South Africa",
+    "playing_role": "Wicket-keeper Batsman",
+    "batting_hand": "Left-hand bat",
+    "bowling_hand": "N/A"
+  },
+  {
+    "id": 15,
+    "name": "Jonny Bairstow",
+    "image": "https://i.ibb.co.com/KpgYt304/image.png",
+    "price": 1900000,
+    "country": "England",
+    "playing_role": "Wicket-keeper Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "N/A"
+  },
+  {
+    "id": 16,
+    "name": "Rishabh Pant",
+    "image": "https://i.ibb.co.com/TByk2LPv/image.png",
+    "price": 2000000,
+    "country": "India",
+    "playing_role": "Wicket-keeper Batsman",
+    "batting_hand": "Left-hand bat",
+    "bowling_hand": "N/A"
+  },
+  {
+    "id": 17,
+    "name": "Shakib Al Hasan",
+    "image": "https://i.ibb.co.com/B2MSdM5V/image.png",
+    "price": 2400000,
+    "country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "batting_hand": "Left-hand bat",
+    "bowling_hand": "Slow left-arm orthodox"
+  },
+  {
+    "id": 18,
+    "name": "Andre Russell",
+    "image": "https://i.ibb.co.com/fGCp3Ndm/image.png",
+    "price": 2700000,
+    "country": "West Indies",
+    "playing_role": "All-rounder",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm fast-medium"
+  },
+  {
+    "id": 19,
+    "name": "David Warner",
+    "image": "https://i.ibb.co.com/C5GVP9sB/image.png",
+    "price": 2000000,
+    "country": "Australia",
+    "playing_role": "Batsman",
+    "batting_hand": "Left-hand bat",
+    "bowling_hand": "Legbreak"
+  },
+  {
+    "id": 20,
+    "name": "Rohit Sharma",
+    "image": "https://i.ibb.co.com/vCtSxWK9/image.png",
+    "price": 2500000,
+    "country": "India",
+    "playing_role": "Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm offbreak"
+  },
+  {
+    "id": 21,
+    "name": "Shubman Gill",
+    "image": "https://i.ibb.co.com/F4SXqDkc/image.png",
+    "price": 1800000,
+    "country": "India",
+    "playing_role": "Batsman",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm offbreak"
+  },
+  {
+    "id": 22,
+    "name": "Jofra Archer",
+    "image": "https://i.ibb.co.com/MDdb5TPX/image.png",
+    "price": 2100000,
+    "country": "England",
+    "playing_role": "Bowler",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm fast"
+  },
+  {
+    "id": 23,
+    "name": "Kagiso Rabada",
+    "image": "https://i.ibb.co.com/HD1Mjpdg/image.png",
+    "price": 2000000,
+    "country": "South Africa",
+    "playing_role": "Bowler",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm fast"
+  },
+  {
+    "id": 24,
+    "name": "Adil Rashid",
+    "image": "https://i.ibb.co.com/cVyTQPR/image.png",
+    "price": 1700000,
+    "country": "England",
+    "playing_role": "Bowler",
+    "batting_hand": "Right-hand bat",
+    "bowling_hand": "Right-arm legbreak"
+  }
+]
