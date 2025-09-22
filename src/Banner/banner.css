@@ -1,0 +1,7 @@
+.hero-section {
+  background-color: rgba(255, 255, 255, 0.293);
+  background-image: url(../assets/bg-shadow.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

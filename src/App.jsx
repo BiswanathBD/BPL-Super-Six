@@ -5,6 +5,7 @@ import Navbar from "./Navbar/Navbar";
 import Toggle from "./Toggle/Toggle";
 import Selected from "./Selected/Selected";
 import { ToastContainer } from "react-toastify";
+import Banner from "./Banner/Banner";
 
 const playersPromise = fetch("players.json").then((res) => res.json());
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Navbar balance={balance} />
+      <Banner />
 
       <Toggle
         selected={selected}

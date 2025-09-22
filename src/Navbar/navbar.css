@@ -3,7 +3,7 @@ li{
   transition: all 0.2s ease;
 }
 li:hover{
-  font-weight: 500;
-  color: blue;
+  font-weight: 600;
+  color: skyblue;
   margin-top: -5px;
 }
