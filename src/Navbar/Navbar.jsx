@@ -8,7 +8,7 @@ const Navbar = ({ balance }) => {
       <div className="container mx-auto flex items-center justify-between text-white">
           <img className="w-16 py-4" src={navLogo} alt="" />
         <div className="flex gap-10 items-center">
-          <ul className="md:flex items-center gap-8 hidden">
+          <ul className="md:flex items-center gap-8 hidden nav">
             <li>Home</li>
             <li>Fixture</li>
             <li>Teams</li>
