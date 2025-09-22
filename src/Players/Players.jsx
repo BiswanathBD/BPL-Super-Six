@@ -8,8 +8,6 @@ const Players = ({
   selected,
   setSelected,
   className,
-  isSelected,
-  setIsSelected,
 }) => {
   const playersData = use(playersPromise);
 
@@ -25,8 +23,6 @@ const Players = ({
           setBalance={setBalance}
           selected={selected}
           setSelected={setSelected}
-          isSelected={isSelected}
-          setIsSelected={setIsSelected}
         />
       ))}
     </div>

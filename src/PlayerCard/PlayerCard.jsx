@@ -1,8 +1,7 @@
-import React, { useState } from "react";
 import { toast } from "react-toastify";
 
 const PlayerCard = ({ player, balance, setBalance, selected, setSelected }) => {
-  const [isSelected, setIsSelected] = useState(false);
+  const isSelected = selected.some((p) => p.id === player.id);
 
   const selectedPlayer = (player) => {
     if (balance < player.price) {
@@ -11,7 +10,6 @@ const PlayerCard = ({ player, balance, setBalance, selected, setSelected }) => {
       return;
     }
     setBalance(balance - player.price);
-    setIsSelected(true);
     const newSelected = [...selected, player];
     setSelected(newSelected);
     selected.length === 5 && toast.success("🎉 Your Team is Ready 🎉");
