@@ -6,6 +6,7 @@ import Toggle from "./Toggle/Toggle";
 import Selected from "./Selected/Selected";
 import { ToastContainer } from "react-toastify";
 import Banner from "./Banner/Banner";
+import Footer from "./Footer/Footer";
 
 const playersPromise = fetch("players.json").then((res) => res.json());
 
@@ -47,6 +48,8 @@ function App() {
         balance={balance}
         setBalance={setBalance}
       />
+
+      <Footer />
 
       <ToastContainer />
     </>

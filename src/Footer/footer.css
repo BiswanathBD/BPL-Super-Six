@@ -1,0 +1,19 @@
+.newsletter {
+  background-color: white;
+  background-image: url(../assets/bg-shadow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: calc(100% - 24px);
+}
+.footer-nav li{
+margin-bottom: 8px;
+list-style: disc;
+transition: all 0.2s ease;
+margin-left: 20px;
+}
+.footer-nav li:hover{
+  margin-left: 25px;
+  font-weight: 600;
+  color: white;
+}

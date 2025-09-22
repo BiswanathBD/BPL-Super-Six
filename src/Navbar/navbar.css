@@ -1,8 +1,8 @@
-li{
+.nav li{
   cursor: pointer;
   transition: all 0.2s ease;
 }
-li:hover{
+.nav li:hover{
   font-weight: 600;
   color: skyblue;
   margin-top: -5px;
