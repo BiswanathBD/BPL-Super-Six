@@ -1,21 +1,52 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Players from "./Players/Players";
+import Navbar from "./Navbar/Navbar";
+import Toggle from "./Toggle/Toggle";
+import Selected from "./Selected/Selected";
+import { ToastContainer } from "react-toastify";
 
-const playersPromise = fetch("/public/players.json").then((res) => res.json());
+const playersPromise = fetch("players.json").then((res) => res.json());
 
 function App() {
+  const [balance, setBalance] = useState(50000000);
+  const [selected, setSelected] = useState([]);
+  const [isAvailable, setIsAvailable] = useState(true);
   return (
     <>
+      <Navbar balance={balance} />
+
+      <Toggle
+        selected={selected}
+        isAvailable={isAvailable}
+        setIsAvailable={setIsAvailable}
+      />
+
       <Suspense
         fallback={
-          <div className="flex justify-center text-white mt-20 h-[100vh]">
+          <div className="flex justify-center text-white mt-20">
             <span className="loading  loading-dots w-20"></span>
           </div>
         }
       >
-        <Players playersPromise={playersPromise} />
+        <Players
+          className={isAvailable ? "" : "hidden"}
+          playersPromise={playersPromise}
+          balance={balance}
+          setBalance={setBalance}
+          selected={selected}
+          setSelected={setSelected}
+        />
       </Suspense>
+      <Selected
+        className={isAvailable ? "hidden" : ""}
+        selected={selected}
+        setSelected={setSelected}
+        balance={balance}
+        setBalance={setBalance}
+      />
+
+      <ToastContainer />
     </>
   );
 }
